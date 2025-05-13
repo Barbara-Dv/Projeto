@@ -4,20 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+ 
+  <!-- Fonte Roboto Slab -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
-
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 
+  <!-- Estilos personalizados -->
   <link rel="stylesheet" href="style.css">
-  <link rel="Icon" type="image/x-icon" href="Logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="Logo.png">
+
   <title>Artium Vox</title>
 </head>
 
 <body>
+  <!-- Cabeçalho -->
   <header class="header">
     <section>
       <a href="#" class="logo">
@@ -34,132 +41,55 @@
         <i class="fa-solid fa-palette"></i>
       </div>
     </section>
-
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
-    </div>
-
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget("https://vlibras.gov.br/app");
-    </script>
   </header>
 
-  <div class="home-container">
-    <section id="home">
-      <div class="container">
-        <h1 class="nome">Artium Vox:</h1>
-        <h3>Nós acreditamos na arte!</h3><br>
-        <p>Compreendemos as dúvidas, incertezas e até o medo</p>
-        <p>cercam os sonhadores que esperam um futuro na arte.</p>
-        <a href="#" class="btn">Saiba Mais!</a>
-      </div>
-    </section>
-  </div>
-
-   <section class="servicos" id="servicos">
-    <h2 class="title">Nossos serviços</h2>
-    <div class="box-container">
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/RosasVermelhas.png" alt="Descrição" title="Descrição" />
-        <h3>Criação de páginas personalizadas</h3>
-        <div class="price">R$ 15,90 <span>R$ 60,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Hortência.png" alt="Nossas Hortênsias" title="Nossas Hortênsias" />
-        <h3>Pacotes de comissão de encomendas</h3>
-        <div class="price">R$ 15,99 <span>R$ 47,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Peônias.png" alt="Nossas Peônias" title="Nossas Peônias" />
-        <h3>Organização de portfólios por categorias de arte</h3>
-        <div class="price">R$ 20,95 <span>R$ 45,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Tulipas.png" alt="Nossas Tulipas" title="Nossas Tulipas" />
-        <h3>Gerenciamento de perfis e criação de conteúdo</h3>
-        <div class="price">R$ 177,95 <span>R$ 200,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Tulipas.png" alt="Nossas Tulipas" title="Nossas Tulipas" />
-        <h3>Suporte jurídico e administrativo, direitos autorais</h3>
-        <div class="price">R$ 177,95 <span>R$ 200,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Tulipas.png" alt="Nossas Tulipas" title="Nossas Tulipas" />
-        <h3>Participação em blog colaborativo de divulgação</h3>
-        <div class="price">R$ 177,95 <span>R$ 200,99</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
-
-      <div class="box">
-        <img src="Imagens_usadas/Imgflores/Orquídeas.png" alt="Nossas orquídeas" title="Nossas orquídeas" />
-        <h3>Serviço de impressão personalizado</h3>
-        <div class="price">R$ 150,89 <span>R$ 200,90</span></div>
-        <a href="#" class="btn">Adicione ao Carrinho</a>
-      </div>
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Seção Sobre Nós -->
+    <div class="sobre-container">
+      <section id="sobre">
+        <div class="container">
+          <h2 class="sobrenos">Sobre Nós</h2>
+          <div class="texto-colunas">
+            <div class="coluna texto">
+              <p>
+                Atualmente, no Brasil, a cultura e a arte estão sendo desvalorizadas, especialmente com o avanço da IA.
+                Artistas enfrentam dúvidas e medo em relação ao futuro na arte. Diante da falta de valorização e investimento, nosso objetivo é criar um ambiente seguro para o crescimento de artistas independentes. Queremos fomentar uma comunidade que consome e contrata diversos tipos de artistas, oferecendo um espaço para divulgar pequenas produções e oportunidades para viver da arte.
+              </p>
+            </div>
+            <div class="coluna imagem">
+              <img src="13.png" alt="Imagem ilustrativa sobre a história e expressão artística">
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
+    <!-- Seção Nossa História -->
+    <div class="historia-container">
+      <section id="nossa-historia">
+        <div class="container">
+          <h2 class="nossahistoria" style="color: antiquewhite;">Nossa História</h2>
+          <div class="texto-colunas">
+            <div class="coluna imagem">
+              <img src="12.png" alt="Imagem ilustrativa sobre a história e expressão artística">
+            </div>
+            <div class="coluna texto">
+              <p>
+                Somos pessoas engajadas na arte desde a primeira infância, envolvidos em diferentes aspectos ao longo do tempo como moda, artes visuais, artes cênicas, literatura, entre outros. Mas, ao nos depararmos com a desvalorização e insignificância dessas áreas, fomos levados a desenvolver suporte para pequenos artistas que desejam se consolidar nesse ramo, trazendo esperanças e o incentivo necessário para que algo tão fundamental na sociedade não perca seu valor e brilho. Afinal, uma sociedade que não conhece sua própria arte corre o risco de perder sua identidade, levando consigo seus preciosos autores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
 
-  <section class="imagemd" >
-    <section id="contato" class="formulario-container">
-      <form id="formulario">
-        <h2>Formulário</h2>
-  
-        <label>Nome:
-          <input type="text" name="nome" required>
-        </label>
-  
-        <label>E-mail:
-          <input type="email" name="email" required>
-        </label>
-  
-        <label>Endereço:
-          <input type="text" name="endereco">
-        </label>
-  
-        <label>Estado:
-          <select name="estado">
-            <option value="">Selecione</option>
-            <option value="SP">SP</option>
-            <option value="RJ">RJ</option>
-            <option value="MG">MG</option>
-            <option value="RS">RS</option>
-          </select>
-        </label>
-  
-        <label>Cidade:
-          <input type="text" name="cidade">
-        </label>
-  
-        <label>Telefone:
-          <input type="tel" name="telefone">
-        </label>
-  
-        <div class="botoes">
-          <button type="submit">Enviar</button>
-          <button type="reset">Limpar</button>
-        </div>
-  
-        <div class="ajuda">
-          <p>Precisa de Ajuda? Fale conosco!<a href="#"><span class="icon-ajuda">❔</span></a></p>
-        </div>
-      </form>
-    </section>
-  </section>
+  <!-- Plugin VLibras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget("https://vlibras.gov.br/app");
+  </script>
 </body>
+
 </html>
